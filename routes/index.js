@@ -33,8 +33,8 @@ router.get("/showData", showData);
 
 router.post("/addData", addData);
 
-router.post("/updateData", updateData);
+router.post("/updateData/{id}", updateData);
 
-router.delete("/deleteData", deleteData);
+router.delete("/deleteData/{id}", deleteData);
 
 module.exports = router;
