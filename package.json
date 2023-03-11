@@ -4,7 +4,8 @@
   "description": "simple app consisting everything",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon App/core/exe",
+    "start": "node core/exe",
+    "watch": "node --watch core/exe",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
