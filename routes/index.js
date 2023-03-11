@@ -22,13 +22,6 @@ router.get("/api", (req, res) => {
   });
 });
 
-router.get("/data", (req, res) => {
-  (async function () {
-    const data = await prisma.data.findMany();
-    res.json({ data: data });
-  })();
-});
-
 router.get("/showData", showData);
 
 router.post("/addData", addData);
