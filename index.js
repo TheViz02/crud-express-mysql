@@ -9,7 +9,7 @@ let app = express();
 // include Routes Here
 let index = require('./routes/index');
 let auth = require('./routes/auth/');
-// end Routs
+// end Routes
 
 app.use(express.static('node_modules'));
 
